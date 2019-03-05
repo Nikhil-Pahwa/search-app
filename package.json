@@ -1,0 +1,23 @@
+{
+  "name": "search-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"scss": "node-sass --watch ./assets/styles/main.scss -o ./assets/styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil-Pahwa/search-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikhil-Pahwa/search-app/issues"
+  },
+  "homepage": "https://github.com/Nikhil-Pahwa/search-app#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

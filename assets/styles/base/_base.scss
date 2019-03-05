@@ -1,0 +1,21 @@
+body {
+    font: $font-size-regular $font-family-text;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main-app {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    font: $font-weight-regular $font-size-large $font-family-text;
+}

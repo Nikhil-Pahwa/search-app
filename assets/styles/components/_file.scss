@@ -1,0 +1,26 @@
+.files-section__heading {
+    padding-bottom: 0.625em;
+    border-bottom: 1px solid $color-file-heading-separator;
+    margin-bottom: 1.25em;
+}
+.file {
+    display: flex;
+    padding: 0 0 1.25em;
+    .file__avatar {
+        width: 3.4em;
+        height: 3.4em;
+    }
+    .file__info {
+        padding-left: 1.25em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .file__name {
+        margin-bottom: 0.31em;
+    }
+    .file__description {
+        font-size: $font-size-medium;
+        color: $color-file-description;
+    }
+}

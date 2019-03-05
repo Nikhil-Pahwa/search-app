@@ -1,0 +1,28 @@
+header {
+    padding: 0 20px;
+    ul {
+        display: flex;
+        list-style-type: none;
+        border-bottom: 1px solid $header-menu-border;
+        padding: 0;
+        li {
+            padding: 0 0 0.625em 0;
+            margin: 0.625em 1.25em 0 0;
+            cursor: pointer;
+            color: $color-header-text;
+            &:first-child {
+                margin-left: 0;
+            }
+            &.active {
+                color: #000;
+                padding-bottom: 0.4em;
+                border-bottom: 2px solid $color-header-item-selected;
+            }
+        }
+        @include breakpoint(tablet) {
+            & {
+                flex-direction: column;
+            }
+        }
+    }
+}
